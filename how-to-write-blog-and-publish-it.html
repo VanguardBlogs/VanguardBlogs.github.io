@@ -28,388 +28,480 @@ To know how to write the perfect blog, follow the steps listed in this article!"
   <style>
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
   </style>
-   <style>
+  <style>
 
-  .Comments {
-      width: 50%;
-      height: auto;
-  }
-  .responsive {
-  width: 100%;
-  height: auto;
-}
-  .navbar {
-    overflow: hidden;
-    background-color: #000000;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: 0 0 0 0;
-  }
-
-  .navbar a {
-    float: left;
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
-  .navbar a:hover {
-    background: #8FACE3;
-    color: black;
-    border-radius: 25px;
-  }
-
-  .navbar a.active {
-    background-color: #8FACE3;
-    color: white;
-  }
-
-   .buttonsss {
-        position: relative;
-        background-color: #8FACE3;
-        font-size: 15px;
-        color: #FFFFFF;
-        padding: 50px 20px;
-        width: 115px;
-        height: 120px;
-        text-decoration: none;
-        overflow: hidden;
-        cursor: pointer;
-        border: 1px solid #8FACE3;
-      border-radius: 25px;
-      margin: 5px 8px;
-      }
-
-    .buttonss {
-        position: relative;
-        background-color:  #8FACE3;
-        font-size: 15px;
-        color: #FFFFFF;
-        padding: 50px 20px;
-        width: 115px;
-        height: 120px;
-        text-decoration: none;
-        overflow: hidden;
-        cursor: pointer;
-        border: 1px solid #8FACE3;
-      border-radius: 25px;
-      margin: 5px 8px;
-      }
-
-      .button {
-        position: relative;
-        background-color: #8FACE3;
-        font-size: 15px;
-        color: #FFFFFF;
-        padding: 50px 20px;
-        width: 115px;
-        height: 120px;
-        text-decoration: none;
-        overflow: hidden;
-        cursor: pointer;
-      border: 1px solid #8FACE3;
-      border-radius: 25px;
-        margin: 5px 8px;
-      }
-      .buttons {
-        position: relative;
-        background-color: #8FACE3;
-        font-size: 15px;
-        color: #FFFFFF;
-        padding: 50px 20px;
-        width: 115px;
-        height: 120px;
-        text-decoration: none;
-        overflow: hidden;
-        cursor: pointer;
-        border: 1px solid #8FACE3;
-      border-radius: 25px;
-      margin: 5px 8px;
-      }
-
-
-  .click {
-    background-color: #171190;
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 50px;
-  }
-  .click:hover {
-  color: #000000;
-  background-color: #ffffff;
-  }
-  body {
-  background-color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  }
-  /* The sidebar menu */
-  .sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-  }
-
-  /* The sidebar links */
-  .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: silver;
-    display: block;
-    transition: 0.5s;
-    border-radius: 25px;
-  }
-
-  .sidebar a:hover {
-    background-color: #8FACE3;
-     border-radius: 25px;
-     color: #5a5a5a;
-  }
-
-  /* Position and style the close button (top right corner) */
-  .sidebar .closebtn {
-    font-size: 40px;
-  }
-
-  /* The button used to open the sidebar */
-  .openbtn {
-    cursor: pointer;
-     border-radius: 25px;
-    background-color: black;
-  }
-  .categories {
-  background-color: #000000;
-  }
-  .categories a {
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    background-color: #8FACE3;
-    border: 1px solid #FFFFFF;
-  }
-  .categories a:hover {
-  color: #000000;
-  }
-  .openbtn:hover {
-    background-color: #8FACE3;
-     border-radius: 25px;
-  }
-
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    padding: 15px;
-  }
-
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
-  ul {
-  background-color: #000000;
-   list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    top: 0;
-    width: 100%;
+ .navbar {
+   overflow: hidden;
+   background-color: #000000;
    position: fixed;
-  }
+   bottom: 0;
+   width: 100%;
+   margin: 0 0 0 0;
+ }
 
-  .list {
-    float: left;
-  }
+ .navbar a {
+   float: left;
+   display: block;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 18px;
+ }
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-  }
+ .navbar a:hover {
+   background: #8FACE3;
+   color: black;
+   border-radius: 25px;
+ }
 
-  li a:hover {
-    background-color: #ffffff;
-    color: #8FACE3;
+ .navbar a.active {
+   background-color: #8FACE3;
+   color: white;
+ }
+ @media screen and (max-width: 425px) {
+   .navbar {
+     overflow: hidden;
+     background-color: #000000;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     margin: 0 0 0 0;
+   }
+
+   .navbar a {
+     float: left;
+     display: block;
+     color: #FFFFFF;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 18px;
+     margin: 0 0 0 0;
+   }
+
+   .navbar a:hover {
+     background: #8FACE3;
+     color: black;
      border-radius: 25px;
-  }
-  ol li {
-  display: inline;
-  float: left;
-  }
+   }
 
-  ol li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-  }
+   .navbar a.active {
+     background-color: #8FACE3;
+     color: white;
+ }
+ }
+  .buttonsss {
+       position: relative;
+       background-color: #FFFFFF;
+       font-size: 15px;
+       color: #8FACE3;
+       padding: 70px 20px;
+       width: 140px;
+       height: 150px;
+       text-decoration: none;
+       overflow: hidden;
+       cursor: pointer;
+       border: 1px solid #8FACE3;
+ 	  border-radius: 25px;
+ 	  margin: 8px 5px;
+ 	  }
 
+   .buttonss {
+       position: relative;
+       background-color:  #FFFFFF;
+       font-size: 15px;
+       color: #8face3;
+       padding: 70px 20px;
+       width: 140px;
+       height: 150px;
+       text-decoration: none;
+       overflow: hidden;
+       cursor: pointer;
+       border: 1px solid #8FACE3;
+ 	  border-radius: 25px;
+ 	  margin: 8px 5px;
+ 	  }
 
-  .activity {
-  background-color: #5a5a5a;
+     .button {
+       position: relative;
+       background-color: #FFFFFF;
+       font-size: 15px;
+       color: #8FACE3;
+       padding: 70px 20px;
+       width: 140px;
+       height: 150px;
+       text-decoration: none;
+       overflow: hidden;
+       cursor: pointer;
+ 	  border: 1px solid #8FACE3;
+ 	  border-radius: 25px;
+ 	    margin: 8px 5px;
+ 	  }
+     .buttons {
+       position: relative;
+       background-color: #FFFFFF;
+       font-size: 15px;
+       color: #8FACE3;
+       padding: 70px 20px;
+       width: 140px;
+       height: 150px;
+       text-decoration: none;
+       overflow: hidden;
+       cursor: pointer;
+       border: 1px solid #8FACE3;
+ 	  border-radius: 25px;
+ 	  margin: 8px 5px;
+ 	  }
+
+     @media screen and (max-width: 425px) {
+       .buttonsss {
+            position: relative;
+            background-color: #FFFFFF;
+            font-size: 15px;
+            color: #8FACE3;
+            padding: 70px 20px;
+            width: 75px;
+            height: 120px;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid #8FACE3;
+      	  border-radius: 25px;
+      	  margin: 2px 2px;
+      	  }
+
+        .buttonss {
+            position: relative;
+            background-color:  #FFFFFF;
+            font-size: 15px;
+            color: #8face3;
+            padding: 70px 20px;
+            width: 75px;
+            height: 120px;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid #8FACE3;
+      	  border-radius: 25px;
+      	  margin: 2px 2px;
+      	  }
+
+          .button {
+            position: relative;
+            background-color: #FFFFFF;
+            font-size: 15px;
+            color: #8FACE3;
+            padding: 70px 20px;
+            width: 75px;
+            height: 120px;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+      	  border: 1px solid #8FACE3;
+      	  border-radius: 25px;
+      	    margin: 2px 2px;
+      	  }
+          .buttons {
+            position: relative;
+            background-color: #FFFFFF;
+            font-size: 15px;
+            color: #8FACE3;
+            padding: 70px 20px;
+            width: 75px;
+            height: 120px;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid #8FACE3;
+      	  border-radius: 25px;
+      	  margin: 2px 2px;
+      	  }
+
+     }
+ .click {
+   background-color: #171190;
+   border: none;
+   color: white;
+   padding: 15px 30px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 70px;
+ }
+ .click:hover {
+ color: #000000;
+ background-color: #ffffff;
+ }
+ body {
+ background-color: #FFFFFF;
+ font-family: 'Montserrat', sans-serif;
+ margin: 0;
+ }
+ /* The sidebar menu */
+ .sidebar {
+   height: 100%; /* 100% Full-height */
+   width: 0; /* 0 width - change this with JavaScript */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Stay on top */
+   top: 0;
+   left: 0;
+   background-color: #111; /* Black*/
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 60px; /* Place content 60px from the top */
+   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+ }
+
+ /* The sidebar links */
+ .sidebar a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: silver;
+   display: block;
+   transition: 0.5s;
    border-radius: 25px;
-  }
+ }
 
-  .active {
-    background-color: #8FACE3;
+ .sidebar a:hover {
+   background-color: #8FACE3;
     border-radius: 25px;
-  }
+    color: #5a5a5a;
+ }
 
-  table tr td {
-  display: inline;
-  float: left;
-  margin: 0 10px;
-  }
+ /* Position and style the close button (top right corner) */
+ .sidebar .closebtn {
+   font-size: 40px;
+ }
 
-  td a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-  }
-  td a:hover {
-  background-color: #FFFFFF;
+ /* The button used to open the sidebar */
+ .openbtn {
+   cursor: pointer;
+    border-radius: 25px;
+   background-color: black;
+ }
+ .categories {
+ background-color: #000000;
+ }
+ .categories a {
+   display: block;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 20px 20px;
+   text-decoration: none;
+   background-color: #8FACE3;
+   border: 1px solid #FFFFFF;
+ }
+ .categories a:hover {
+ color: #000000;
+ }
+ .openbtn:hover {
+   background-color: #8FACE3;
+    border-radius: 25px;
+ }
+
+ /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+ #main {
+   transition: margin-left .5s; /* If you want a transition effect */
+   padding: 15px;
+ }
+
+ /* On smaller screens, where height is less than 470px, change the style of the sidenav (less padding and a smaller font size) */
+ @media screen and (max-height: 470px) {
+   .sidebar {padding-top: 15px;}
+   .sidebar a {font-size: 18px;}
+ }
+ ul {
+ background-color: #000000;
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   top: 0;
+   width: 100%;
+  position: fixed;
+ }
+
+ .list {
+   float: left;
+ }
+
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background-color: black;
+ }
+
+ li a:hover {
+   background-color: #8FACE3;
+   color: #FFFFFF;
+    border-radius: 25px;
+ }
+ ol li {
+ display: inline;
+ float: left;
+ }
+
+ ol li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background-color: black;
+ }
+
+
+ .activity {
+ background-color: #5a5a5a;
+  border-radius: 25px;
+ }
+
+ .active {
+   background-color: #8FACE3;
    border-radius: 25px;
-   color: #000000;
-  }
+ }
 
-  .sub {
-  background-color: #8FACE3;
-  position: bottom;
-  }
-  #myInput {
-  border-radius: 50px;
-  }
-  #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 10px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #000000; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 50px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
+ table tr td {
+ display: inline;
+ float: left;
+ margin: 0 10px;
+ }
 
-  #myBtn:hover {
-    background-color: #8FACE3; /* Add a dark-grey background on hover */
-  }
-  .logo {
-  margin: 15px 10px 0 0;
-  }
-  div a {
-  margin: 0 20px 0 0;
-  }
-  .bgimg {
-  background-image: url('BG.png');
-  height: 400px;
-  width: 100%;
-  margin: 0 0 0 0;
-  }
-  .TStep {
-    font-size: 20px;
-  }
-  .CStep {
-    font-size: 40px;
-  }
+ td a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background-color: black;
+ }
+ td a:hover {
+ background-color: #FFFFFF;
+  border-radius: 25px;
+  color: #000000;
+ }
 
-  </style>
-  <script>
-    function openNav() {
-    document.getElementById("mySidebar").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-  }
+ .sub {
+ background-color: #8FACE3;
+ position: bottom;
+ }
+ #myInput {
+ border-radius: 70px;
+ }
 
-  /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-  function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-  }
-  </script>
-  <script>
-  function myFunction() {
-    // Declare variables
-    var input, filter, ol, li, a, i, txtValue;
-    input = document.getElementById('myInput');
-    filter = input.value.toUpperCase();
-    ol = document.getElementById("myOL");
-    li = ol.getElementsByTagName('li');
+ #myBtn {
+   display: none; /* Hidden by default */
+   position: fixed; /* Fixed/sticky position */
+   bottom: 20px; /* Place the button at the bottom of the page */
+   right: 10px; /* Place the button 30px from the right */
+   z-index: 99; /* Make sure it does not overlap */
+   border: none; /* Remove borders */
+   outline: none; /* Remove outline */
+   background-color: #000000; /* Set a background color */
+   color: white; /* Text color */
+   cursor: pointer; /* Add a mouse pointer on hover */
+   padding: 15px; /* Some padding */
+   border-radius: 70px; /* Rounded corners */
+   font-size: 18px; /* Increase font size */
+ }
 
-    // Loop through all list items, and hide those who don't match the search query
-    for (i = 0; i < li.length; i++) {
-      a = li[i].getElementsByTagName("a")[0];
-      txtValue = a.textContent || a.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        li[i].style.display = "";
-      } else {
-        li[i].style.display = "none";
-      }
-    }
-  }
-  </script>
-  </head>
-<body>
-<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=60ad33719cfe6d001157ad7d&product=sticky-share-buttons" async="async"></script>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="OokQMLla"></script>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="NldviImJ"></script>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="1lew3lGe"></script>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="IEv32D8t"></script>
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="0rJ8ORzS"></script>
-<center>
-<div class="bgimg">
-ArrowHeads - 2021
-<center>
-<p style="font-size:50px; color:#8FACE3;">
-<br>
-<b>
-  <a href="home.html" style="color:#8FACE3;">
-VanguardBlogs : Your Tech News HQ
-</a>
-</b>
-</p>
-</center>
-<br>
-<br>
+ #myBtn:hover {
+   background-color: #8FACE3; /* Add a dark-grey background on hover */
+ }
+ .logo {
+ margin: 15px 10px 0 0;
+ }
+ div a {
+ margin: 0 20px 0 0;
+ }
+ .bgimg {
+ background-image: url('BG.png');
+ height: 400px;
+ width: 100%;
+ margin: 0 0 0 0;
+ }
+ .responsive {
+   width: 100%;
+   height: auto;
+ }
+ </style>
+ <script>
+   function openNav() {
+   document.getElementById("mySidebar").style.width = "270px";
+   document.getElementById("main").style.marginLeft = "270px";
+ }
+
+ /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+ function closeNav() {
+   document.getElementById("mySidebar").style.width = "0";
+   document.getElementById("main").style.marginLeft = "0";
+ }
+ </script>
+ <script>
+ function myFunction() {
+   // Declare variables
+   var input, filter, ol, li, a, i, txtValue;
+   input = document.getElementById('myInput');
+   filter = input.value.toUpperCase();
+   ol = document.getElementById("myOL");
+   li = ol.getElementsByTagName('li');
+
+   // Loop through all list items, and hide those who don't match the search query
+   for (i = 0; i < li.length; i++) {
+     a = li[i].getElementsByTagName("a")[0];
+     txtValue = a.textContent || a.innerText;
+     if (txtValue.toUpperCase().indexOf(filter) > -1) {
+       li[i].style.display = "";
+     } else {
+       li[i].style.display = "none";
+     }
+   }
+ }
+ </script>
+ </head>
+ <body>
+   <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/hi_IN/sdk.js#xfbml=1&version=v11.0" nonce="Cu7E4ChY"></script>
+   <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=60ad33719cfe6d001157ad7d&product=sticky-share-buttons" async="async"></script>
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="OokQMLla"></script>
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="NldviImJ"></script>
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="1lew3lGe"></script>
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="IEv32D8t"></script>
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="0rJ8ORzS"></script>
+ <center>
+ <div class="bgimg">
+ Made by ArrowHeads - 2021
+ <center>
+ <p style="font-size:70px; color:#8FACE3;">
+ <br>
+ <b>
+   <style>
+   @media screen and (max-width: 575px) {
+     .mediaFix {font-size: 14px;}
+   }
+   </style>
+   <a href="home.html" class ="mediaFix"style="color:#8FACE3;">
+ VanguardBlogs : Your Tech News HQ
+ </a>
+ </b>
+ </p>
+ </center>
+ <br>
  <br>
   <br>
-  </center>
-</div>
+   <br>
+   </center>
+   </div>
   <button onclick="topFunction()" id="myBtn" title="Go Back to Top"><img src="outline_expand_less_white_24dp.png"></button>
   <script>
   //Get the button:
@@ -624,17 +716,11 @@ Like this article, share it, comment on it, or save it for later!
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <br>
 <br>
-<div class="fb-share-button" data-href="https://vanguardblogs.github.io/how-to-write-blog-and-publish-it.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvanguardblogs.github.io%2Fhow-to-write-blog-and-publish-it.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-<br>
-<br>
-<div class="fb-like" data-href="https://vanguardblogs.github.io/how-to-write-blog-and-publish-it.html" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
-<br>
-<br>
-<div class="fb-save" data-uri="https://www.instagram.com/facebook/" data-size="large"></div>
+<div class="fb-like" data-href="https://vanguardblogs.github.io/how-to-write-blog-and-publish.html" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
 <br>
 <br>
 <div class="Comments">
-<div class="fb-comments" data-href="https://vanguardblogs.github.io/how-to-write-blog-and-publish-it.html" data-width="340" data-numposts="50"></div>
+<div class="fb-comments" data-href="https://vanguardblogs.github.io/how-to-write-blog-and-publish-it.html" data-width="200" data-numposts="50"></div>
 </div>
 <br>
 <br>
@@ -643,7 +729,7 @@ Like this article, share it, comment on it, or save it for later!
 <p style="font-size:35px; color:#FFFFFF;">
 &#9993; Become our weekly newsletter subscriber! &#9993;
 </p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCwodD2F4zYguDy_wcNfAfzoNWbhByLE8H8rOBpV3ObdpEKA/viewform?embedded=true" width="340" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCwodD2F4zYguDy_wcNfAfzoNWbhByLE8H8rOBpV3ObdpEKA/viewform?embedded=true" width="280" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
 </div>
 </center>

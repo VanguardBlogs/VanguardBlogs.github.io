@@ -55,13 +55,44 @@ VanguardBlogs : Your Tech News HQ
   background-color: #8FACE3;
   color: white;
 }
+@media screen and (max-width: 425px) {
+  .navbar {
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
 
+  .navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 0 0 0;
+  }
+
+  .navbar a:hover {
+    background: #8FACE3;
+    color: black;
+    border-radius: 25px;
+  }
+
+  .navbar a.active {
+    background-color: #8FACE3;
+    color: white;
+}
+}
  .buttonsss {
       position: relative;
       background-color: #FFFFFF;
       font-size: 15px;
       color: #8FACE3;
-      padding: 50px 20px;
+      padding: 70px 20px;
       width: 140px;
       height: 150px;
       text-decoration: none;
@@ -69,7 +100,7 @@ VanguardBlogs : Your Tech News HQ
       cursor: pointer;
       border: 1px solid #8FACE3;
 	  border-radius: 25px;
-	  margin: 5px 8px;
+	  margin: 8px 5px;
 	  }
 
   .buttonss {
@@ -77,7 +108,7 @@ VanguardBlogs : Your Tech News HQ
       background-color:  #FFFFFF;
       font-size: 15px;
       color: #8face3;
-      padding: 50px 20px;
+      padding: 70px 20px;
       width: 140px;
       height: 150px;
       text-decoration: none;
@@ -85,7 +116,7 @@ VanguardBlogs : Your Tech News HQ
       cursor: pointer;
       border: 1px solid #8FACE3;
 	  border-radius: 25px;
-	  margin: 5px 8px;
+	  margin: 8px 5px;
 	  }
 
     .button {
@@ -93,7 +124,7 @@ VanguardBlogs : Your Tech News HQ
       background-color: #FFFFFF;
       font-size: 15px;
       color: #8FACE3;
-      padding: 50px 20px;
+      padding: 70px 20px;
       width: 140px;
       height: 150px;
       text-decoration: none;
@@ -101,14 +132,14 @@ VanguardBlogs : Your Tech News HQ
       cursor: pointer;
 	  border: 1px solid #8FACE3;
 	  border-radius: 25px;
-	    margin: 5px 8px;
+	    margin: 8px 5px;
 	  }
     .buttons {
       position: relative;
       background-color: #FFFFFF;
       font-size: 15px;
       color: #8FACE3;
-      padding: 50px 20px;
+      padding: 70px 20px;
       width: 140px;
       height: 150px;
       text-decoration: none;
@@ -116,10 +147,74 @@ VanguardBlogs : Your Tech News HQ
       cursor: pointer;
       border: 1px solid #8FACE3;
 	  border-radius: 25px;
-	  margin: 5px 8px;
+	  margin: 8px 5px;
 	  }
 
+    @media screen and (max-width: 425px) {
+      .buttonsss {
+           position: relative;
+           background-color: #FFFFFF;
+           font-size: 15px;
+           color: #8FACE3;
+           padding: 70px 20px;
+           width: 75px;
+           height: 120px;
+           text-decoration: none;
+           overflow: hidden;
+           cursor: pointer;
+           border: 1px solid #8FACE3;
+     	  border-radius: 25px;
+     	  margin: 2px 2px;
+     	  }
 
+       .buttonss {
+           position: relative;
+           background-color:  #FFFFFF;
+           font-size: 15px;
+           color: #8face3;
+           padding: 70px 20px;
+           width: 75px;
+           height: 120px;
+           text-decoration: none;
+           overflow: hidden;
+           cursor: pointer;
+           border: 1px solid #8FACE3;
+     	  border-radius: 25px;
+     	  margin: 2px 2px;
+     	  }
+
+         .button {
+           position: relative;
+           background-color: #FFFFFF;
+           font-size: 15px;
+           color: #8FACE3;
+           padding: 70px 20px;
+           width: 75px;
+           height: 120px;
+           text-decoration: none;
+           overflow: hidden;
+           cursor: pointer;
+     	  border: 1px solid #8FACE3;
+     	  border-radius: 25px;
+     	    margin: 2px 2px;
+     	  }
+         .buttons {
+           position: relative;
+           background-color: #FFFFFF;
+           font-size: 15px;
+           color: #8FACE3;
+           padding: 70px 20px;
+           width: 75px;
+           height: 120px;
+           text-decoration: none;
+           overflow: hidden;
+           cursor: pointer;
+           border: 1px solid #8FACE3;
+     	  border-radius: 25px;
+     	  margin: 2px 2px;
+     	  }
+
+    }
 .click {
   background-color: #171190;
   border: none;
@@ -129,7 +224,7 @@ VanguardBlogs : Your Tech News HQ
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 50px;
+  border-radius: 70px;
 }
 .click:hover {
 color: #000000;
@@ -208,8 +303,8 @@ color: #000000;
   padding: 15px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+/* On smaller screens, where height is less than 470px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 470px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
@@ -292,8 +387,9 @@ background-color: #8FACE3;
 position: bottom;
 }
 #myInput {
-border-radius: 50px;
+border-radius: 70px;
 }
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -306,7 +402,7 @@ border-radius: 50px;
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 50px; /* Rounded corners */
+  border-radius: 70px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
 
@@ -328,8 +424,8 @@ margin: 0 0 0 0;
 </style>
 <script>
   function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("mySidebar").style.width = "270px";
+  document.getElementById("main").style.marginLeft = "270px";
 }
 
 /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
@@ -365,10 +461,15 @@ function myFunction() {
 <div class="bgimg">
 Made by ArrowHeads - 2021
 <center>
-<p style="font-size:50px; color:#8FACE3;">
+<p style="font-size:70px; color:#8FACE3;">
 <br>
 <b>
-  <a href="home.html" style="color:#8FACE3;">
+  <style>
+  @media screen and (max-width: 575px) {
+    .mediaFix {font-size: 14px;}
+  }
+  </style>
+  <a href="home.html" class ="mediaFix"style="color:#8FACE3;">
 VanguardBlogs : Your Tech News HQ
 </a>
 </b>
@@ -414,7 +515,9 @@ Welcome to VanguardBlogs!
 This website would feature articles about the advancements in technology.
 <br>
 <br>
+<a href="https://forms.gle/mcAdZwEZ6t9HXDoF9" target="_blank" style="color: #8FACE3;">
 Subscribe to our newsletter to never miss a thing!
+</a>
 </center>
 <br>
 <br>
@@ -604,7 +707,7 @@ Spotlight on <i>The Top Articles of This Week</i> :
         <a href="https://www.usnews.com/education/learn-coding-guide" class="buttonss"> <img src="VB.png" width="50" height="50"> <br> How to learn to code?</a>
         </td>
         <td>
-        <a href="https://websitesetup.org/best-ide-software/" class="buttonsss"> <img src="VB.png" width="50" height="50"> Which is the best IDE/Code editor? <br> </a>
+        <a href="https://websitesetup.org/best-ide-software/" class="buttonsss"> <img src="VB.png" width="50" height="50"> <br> Which is the best IDE/Code editor? <br> </a>
         </td>
         <td>
         <a href="https://en.wikipedia.org/wiki/Integrated_development_environment" class="buttonss"> <img src="VB.png" width="50" height="50"> <br> What is an IDE? </a>
@@ -628,44 +731,81 @@ What do you want to do today?
 <br>
 <br>
 <i>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="&#128270; Search Articles..." style="height:60px; width:395px; font-size:15pt; font-family: 'Montserrat', sans-serif; color: #8FACE3;">
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="&#128270; Search Articles..." style="height:60px; width:290px; font-size:15pt; font-family: 'Montserrat', sans-serif; color: #8FACE3;">
+
 <ol id="myOL">
 <br>
   <li><a href="https://smartblogger.com/how-to-write-a-blog-post/" class="button"> <img src="VB.png" width="50" height="50"> <br> How to write a blog? </a></li>
+
   <li><a href="how-to-clear-the-cached-data-of-a-website-on-desktop.html" class="button"> <img src="VB.png" width="50" height="50"> <br> How to clear cached data of a website on desktop?</a></li>
+
   <li><a href="how-to-write-blog-and-publish-it.html" class="buttons"> <img src="VB.png" width="50" height="50"> <br> How to publish your website online?</a></li>
+
   <li><a href="https://www.microsoft.com/en-us/software-download/windows10" class="button"> <img src="VB.png" width="50" height="50"> <br> How to get Windows 10 for free?</a></li>
+
   <li><a href="how-to-write-blog-and-publish-it.html" class="button"> <img src="VB.png" width="50" height="50"> <br> How to write a blog and publish it?</a></li>
+
   <li><a href="https://www.usnews.com/education/learn-coding-guide" class="buttons"> <img src="VB.png" width="50" height="50"> <br> How to learn to code?</a></li>
-  <li><a href="https://browserhow.com/fix-chrome-and-android-system-webview-is-not-getting-updated/" class="button"> <img src="VB.png" width="50" height="50"> <br> How to fix the unable to update Chrome and Android Web View error? </a></li>
+
+  <li><a href="https://browserhow.com/fix-chrome-and-android-system-webview-is-not-getting-updated/" class="button"> <img src="VB.png" width="50" height="50"> <br>Fix: Update Chrome & Android WebView</a></li>
+
   <li><a href="https://websitesetup.org/best-ide-software/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> Which is the best IDE/Code editor?  </a></li>
+
   <li><a href="https://www.wired.com/story/foldable-phones-brief-history-and-uncertain-future/" class="button"> <img src="VB.png" width="50" height="50"> <br> How do foldable mobile devices work?</a></li>
-  <li><a href="https://livewire.thewire.in/out-and-about/anti-stardom-daft-punks-legacy-of-technology-assisted-public-engagement/" class="buttons"> <img src="VB.png" width="50" height="50"> <br>The Legends who believed in technology: Daft Punk</a></li>
+
+  <li><a href="https://livewire.thewire.in/out-and-about/anti-stardom-daft-punks-legacy-of-technology-assisted-public-engagement/" class="buttons"> <img src="VB.png" width="50" height="50"> <br>Legends who believed in technology: Daft Punk</a></li>
+
   <li><a href="https://www.igeeksblog.com/whatsapp-vs-signal/" class="button"> <img src="VB.png" width="50" height="50"> <br> WhatsApp VS Signal: Which one is more secure?</a></li>
+
   <li><a href="https://screenrant.com/whatsapp-alternative-signal-vs-telegram-comparison-features-privacy/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> WhatsApp alternative: Signal or Telegram?</a></li>
+
   <li><a href="https://www.cbsnews.com/news/is-facebook-fading-social-media-giant-could-lose-80-percent-of-users-study-says/" class="button"> <img src="VB.png" width="50" height="50"> <br> Will FaceBook fade away by 2030?</a></li>
+
   <li><a href="https://www.makeuseof.com/tag/complete-guide-windows-customization/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> How to customise your Windows 10? </a></li>
+
   <li><a href="https://discord.com/" class="button"> <img src="VB.png" width="50" height="50"> <br> What is Discord? </a></li>
+
   <li><a href="https://www.lifewire.com/what-is-twitch-4143337" class="buttons"> <img src="VB.png" width="50" height="50"> <br> What is Twitch? </a></li>
+
   <li><a href="https://thefrisky.com/why-instagram-is-better-than-facebook/" class="button"> <img src="VB.png" width="50" height="50"> <br> FaceBook VS FaceBook: Instagram better than FaceBook? </a></li>
+
   <li><a href="https://www.makeuseof.com/tag/9-essential-windows-apps-students/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> Top 10 apps for students in Microsoft Store (Windows)</a></li>
+
   <li><a href="https://www.guidingtech.com/free-useful-android-apps-for-students/" class="button"> <img src="VB.png" width="50" height="50"> <br> Top 10 apps for students in Google Play Store (Android)</a></li>
+
   <li><a href="https://www.developgoodhabits.com/journal-apps/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> What are e-diaries? </a></li>
+
   <li><a href="https://www.freecodecamp.org/news/how-to-be-safe-online/" class="button"> <img src="VB.png" width="50" height="50"> <br> How to be secure online? </a></li>
+
   <li><a href="https://www.signal.org/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> What is Signal Messenger? </a> </li>
+
   <li><a href="https://www.lifewire.com/facebook-messenger-4103719" class="button"> <img src="VB.png" width="50" height="50"> <br> What is FaceBook Messenger? </a> </li>
+
   <li><a href="https://www.businessinsider.in/tech/how-to/what-is-telegram-a-quick-guide-to-the-fast-and-secure-messaging-platform/articleshow/81673955.cms" class="buttons"> <img src="VB.png" width="50" height="50"> <br> What is Telegram Messenger? </a> </li>
+
   <li><a href="https://www.collegemagazine.com/the-10-best-note-taking-apps-for-students/" class="button"> <img src="VB.png" width="50" height="50"> <br> Top 10 Notes apps for students in Google Play Store </a> </li>
+
   <li><a href="https://www.intellectsoft.net/blog/5-of-the-best-mobile-ides-for-android/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> Which are the best IDEs/Code editors for Android? </a> </li>
+
   <li><a href="https://www.webopedia.com/definitions/detachable-touchscreen/" class="button"> <img src="VB.png" width="50" height="50"> <br> How do detachable screen laptops work? </a> </li>
+
   <li><a href="https://www.developgoodhabits.com/journal-apps/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> Top 10 E-Diary apps for students in Google Play Store </a> </li>
+
   <li><a href="https://en.wikipedia.org/wiki/Integrated_development_environment" class="button"> <img src="VB.png" width="50" height="50"> <br> What is an IDE? </a> </li>
+
   <li><a href="https://learn.g2.com/what-is-cached-data" class="buttons"> <img src="VB.png" width="50" height="50"> <br> What is cached data? </a> </li>
+
   <li><a href="https://www.merriam-webster.com/dictionary/blog" class="button"> <img src="VB.png" width="50" height="50"> <br> What is a blog? </a> </li>
+
   <li><a href="how-to-write-blog-and-publish-it.html" class="buttons"> <img src="VB.png" width="50" height="50"> <br> How to publish your blog online? </a> </li>
+
   <li><a href="https://www.pcmag.com/encyclopedia/term/source-code-editor" class="button"> <img src="VB.png" width="50" height="50"> <br> What is a Code Editor? </a> </li>
+
   <li><a href="https://www.pcworld.com/article/3621660/7-big-ways-windows-11-changes-windows-10.html" class="buttons"> <img src="VB.png" width="50" height="50"> <br> What are the major changes in Windows 11?</a> </li>
+
   <li><a href="https://www.windowscentral.com/windows-11-release-date" class="button"> <img src="VB.png" width="50" height="50"> <br> When will be Windows 11 released?</a> </li>
+
   <li><a href="https://www.1e.com/evolution-of-windows/" class="buttons"> <img src="VB.png" width="50" height="50"> <br> Windows: A history of evolution</a> </li>
 </ol>
 </i>
@@ -753,21 +893,20 @@ What do you want to do today?
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
 <hr>
-<br>
-<br>
-<br>
-<br>
-<br>
-<center>
-<div class="sub">
-<p style="font-size:35px; color:#FFFFFF;">
-&#9993; Become our weekly newsletter subscriber! &#9993;
-</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCwodD2F4zYguDy_wcNfAfzoNWbhByLE8H8rOBpV3ObdpEKA/viewform?embedded=true" width="340" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</div>
-</div>
-</center>
 <p style="font-size:5px; text-align:center;">
   VanguardBlogs.github.io
 </p>
