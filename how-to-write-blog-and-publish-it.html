@@ -1,0 +1,674 @@
+<!doctype html>
+<html>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+  name="description"      author="ArrowHeads"
+  content="Welcome to VanguardBlogs : Your Tech News HQ. Here, you will find the info about almost everything that you want to know about technology!">
+<meta property="og:url"                content="https://vanguardblogs.github.io/how-to-write-blog-and-publish-it.html" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="How to write a blog and publish it?" />
+<meta property="og:description"        content="By the end of this article, you would know how to write a blog, the key features to be kept in mind while writing a blog, and how can you bring your content to the web!
+To know how to write the perfect blog, follow the steps listed in this article!" />
+<meta property="og:image"              content="https://vanguardblogs.github.io/VB.png" />
+
+      <link rel="shortcut icon" href="VB_Logo.png" type="image/png">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<title>
+  VanguardBlogs : Your Tech News HQ
+  </title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+  </style>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  </style>
+   <style>
+
+  .Comments {
+      width: 50%;
+      height: auto;
+  }
+  .responsive {
+  width: 100%;
+  height: auto;
+}
+  .navbar {
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .navbar a:hover {
+    background: #8FACE3;
+    color: black;
+    border-radius: 25px;
+  }
+
+  .navbar a.active {
+    background-color: #8FACE3;
+    color: white;
+  }
+
+   .buttonsss {
+        position: relative;
+        background-color: #8FACE3;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 50px 20px;
+        width: 115px;
+        height: 120px;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border: 1px solid #8FACE3;
+      border-radius: 25px;
+      margin: 5px 8px;
+      }
+
+    .buttonss {
+        position: relative;
+        background-color:  #8FACE3;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 50px 20px;
+        width: 115px;
+        height: 120px;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border: 1px solid #8FACE3;
+      border-radius: 25px;
+      margin: 5px 8px;
+      }
+
+      .button {
+        position: relative;
+        background-color: #8FACE3;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 50px 20px;
+        width: 115px;
+        height: 120px;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      border: 1px solid #8FACE3;
+      border-radius: 25px;
+        margin: 5px 8px;
+      }
+      .buttons {
+        position: relative;
+        background-color: #8FACE3;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 50px 20px;
+        width: 115px;
+        height: 120px;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border: 1px solid #8FACE3;
+      border-radius: 25px;
+      margin: 5px 8px;
+      }
+
+
+  .click {
+    background-color: #171190;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+  }
+  .click:hover {
+  color: #000000;
+  background-color: #ffffff;
+  }
+  body {
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  }
+  /* The sidebar menu */
+  .sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: silver;
+    display: block;
+    transition: 0.5s;
+    border-radius: 25px;
+  }
+
+  .sidebar a:hover {
+    background-color: #8FACE3;
+     border-radius: 25px;
+     color: #5a5a5a;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    font-size: 40px;
+  }
+
+  /* The button used to open the sidebar */
+  .openbtn {
+    cursor: pointer;
+     border-radius: 25px;
+    background-color: black;
+  }
+  .categories {
+  background-color: #000000;
+  }
+  .categories a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: #8FACE3;
+    border: 1px solid #FFFFFF;
+  }
+  .categories a:hover {
+  color: #000000;
+  }
+  .openbtn:hover {
+    background-color: #8FACE3;
+     border-radius: 25px;
+  }
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 15px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  ul {
+  background-color: #000000;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+   position: fixed;
+  }
+
+  .list {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+
+  li a:hover {
+    background-color: #ffffff;
+    color: #8FACE3;
+     border-radius: 25px;
+  }
+  ol li {
+  display: inline;
+  float: left;
+  }
+
+  ol li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+
+
+  .activity {
+  background-color: #5a5a5a;
+   border-radius: 25px;
+  }
+
+  .active {
+    background-color: #8FACE3;
+    border-radius: 25px;
+  }
+
+  table tr td {
+  display: inline;
+  float: left;
+  margin: 0 10px;
+  }
+
+  td a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+  }
+  td a:hover {
+  background-color: #FFFFFF;
+   border-radius: 25px;
+   color: #000000;
+  }
+
+  .sub {
+  background-color: #8FACE3;
+  position: bottom;
+  }
+  #myInput {
+  border-radius: 50px;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #000000; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+  #myBtn:hover {
+    background-color: #8FACE3; /* Add a dark-grey background on hover */
+  }
+  .logo {
+  margin: 15px 10px 0 0;
+  }
+  div a {
+  margin: 0 20px 0 0;
+  }
+  .bgimg {
+  background-image: url('BG.png');
+  height: 400px;
+  width: 100%;
+  margin: 0 0 0 0;
+  }
+  .TStep {
+    font-size: 20px;
+  }
+  .CStep {
+    font-size: 40px;
+  }
+
+  </style>
+  <script>
+    function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+  </script>
+  <script>
+  function myFunction() {
+    // Declare variables
+    var input, filter, ol, li, a, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ol = document.getElementById("myOL");
+    li = ol.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+  </head>
+<body>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=60ad33719cfe6d001157ad7d&product=sticky-share-buttons" async="async"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="OokQMLla"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="NldviImJ"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="1lew3lGe"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="IEv32D8t"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="0rJ8ORzS"></script>
+<center>
+<div class="bgimg">
+ArrowHeads - 2021
+<center>
+<p style="font-size:50px; color:#8FACE3;">
+<br>
+<b>
+  <a href="home.html" style="color:#8FACE3;">
+VanguardBlogs : Your Tech News HQ
+</a>
+</b>
+</p>
+</center>
+<br>
+<br>
+ <br>
+  <br>
+  </center>
+</div>
+  <button onclick="topFunction()" id="myBtn" title="Go Back to Top"><img src="outline_expand_less_white_24dp.png"></button>
+  <script>
+  //Get the button:
+  mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+  </script>
+  <p style="font-family: 'Roboto', sans-serif; font-size:40px; text-align: center; color: #8FACE3;">
+  How to write a blog and publish it?
+  </p>
+  <br>
+  <br>
+  <br>
+  <b>
+ Conditions: N/A
+ <br>
+ <br>
+ Article Average Read Time : Approximately 5 minutes.
+  </b>
+<br>
+<br>
+Greetings!
+<br>
+<br>
+<i><element class="CStep">Welcome to the step-by-step guide on how to write a blog and publish it!</element></i>
+</h2>
+<br>
+<br>
+By the end of this article, you would know how to write a blog, the key features to be kept in mind while writing a blog, and how can you bring your content to the web!
+<br>
+<br>
+<br>
+<br>
+<i><element class="CStep">What is a blog?</element></i>
+<br>
+<br>
+What is a <i>blog</i>?
+<br>
+<br>
+According to the Oxford English Language Dictionary, <i>&#8220;A blog is a regularly updated website or web page, typically one run by an individual or small group, that is written in an informal or conversational style.&#8221;</i> and it's true. A blog is a regularly updated website or web page, which means that <mark>your content should be put online to be called a blog.</mark>
+<br>
+<br>
+The steps involved in blogging are as follows:
+<br>
+<br>
+<hr>
+<element class="CStep">1</element><element class="TStep">/3:</element>  <i><element class="CStep">Choosing the theme</element></i>
+<br>
+<br>
+<hr>
+<br>
+<br>
+The first and the most important step, choosing the theme.
+<br>
+<br>
+<img src="BG1.jpg" style="border-radius:25px;" alt="Chrome New Tab" class="responsive" />
+<br>
+<br>
+The first step in writing a blog is most crucial in the process.
+<br>
+<br>
+I have struggled to choose the correct theme before and after starting this website, but after thinking for a few days, I tried to write an article and found that it was pretty good, so I choose technology as my blogging genre.
+<br>
+<br>
+What's yours?
+<br>From the vast menu of blogging genres, it is difficult to choose one. Try your best to choose the one which suits you!
+<br>
+<br>
+<hr>
+<element class="CStep">2</element><element class="TStep">/3:</element>  <i><element class="CStep">Choosing the name of your blog</element></i>
+<br>
+<br>
+<hr>
+<br>
+<br>
+Choosing the name is another important step in the process.
+<br>
+<br>
+A <i>catchy name</i> would catch the sight of the reader and <i>attract</i> them to your website. Make sure that the name you choose, would be <i>catchy</i>, as well as an <i>ideal</i> name that suits your theme and content.
+<br>
+<br>
+<img src="BG3.png" style="border-radius:25px;" alt="YouTube Home Page" class="responsive" />
+<br>
+<br>
+<hr>
+<element class="CStep">3</element><element class="TStep">/3:</element>  <i><element class="CStep">Choose your website domain/blog service</element></i>
+<br>
+<br>
+<hr>
+<br>
+<br>
+If you are good at programming, creating a blog page would not be much big of a task for you, there are two more things that you need to keep in mind while making your website, domain name, and the color of the content of your website. While choosing the domain name, you will need to make sure that you choose the name with matches the name of your blog, because, if there would be no connections between the domain name and blog title, the reader would be confused. With engaging content, the colors you choose matter too!
+<br>
+<br>
+<hr>
+<br>
+<br>
+Now, the second half of this point, choosing your domain/blog service provider.
+<br>
+<br>
+If you choose the domain option, you will need to do the following things:
+<br>
+<br>
+> Buy a domain
+<br>
+> Configure it on a domain hosting site
+<br>
+> Learn to code in mainly HTML and CSS (You can skip CSS to use an existing template that is available on the internet)
+<br>
+> Upload files using an FTP server
+<br>
+<br>
+Sounds tough?
+<br>
+<br>
+Try the second method!
+<br>
+<br>
+The second method, as said above, is, using a blogging platform.
+<br>
+<br>
+It is very easy to use, one such platform is Blogger by Google.
+<br>
+<br>
+All you need to do is, enter your content and then add images of your choice.
+<br>
+<br>
+Going back to the domain option,
+<br>
+<br>
+It has certain benefits and some drawbacks for beginners.
+<br>
+<br>
+Benefits:
+<br>
+<br>
+> Completely customizable.
+<br>
+> Infinite color choices.
+<br>
+> Infinite font-styles.
+<br>
+> Add many other features using JavaScript such as "Go back to top" and "Dark Mode".
+<br>
+<br>
+> Drawbacks for beginners:
+<br>
+<br>
+> Add your website to <i>Google Search Console</i>
+<br>
+> Programming might be difficult for beginners
+<br>
+> Looking after the <i>Search Engine Optimization Score (SEO Score)</i>
+<br>
+and others
+<br>
+<br>
+Now, it's up to you, which path would you choose?
+<br>
+The easy-peasy blogging service? or the domain option?
+<br>
+<br>
+Take your time.
+<br>
+Don't make any decision in haste.
+<br>
+Don't take the stress for writing content every day, go on at your own pace. : )
+<br>
+<br>
+<br>
+<br>
+Thank you for reading!
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h3>
+Written by:
+<br>
+ Pixar <img src="outline_verified_black_24dp_small.png">
+<br>
+</h3>
+<p class="aInfo">
+Verified Account
+<br>
+<br>
+Founder, content-writer, and programmer of VanguardBlogs.
+</p>
+<br>
+<hr>
+<br>
+<br>
+Like this article, share it, comment on it, or save it for later!
+<br>
+<br>
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br>
+<br>
+<div class="fb-share-button" data-href="https://vanguardblogs.github.io/how-to-write-blog-and-publish-it.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvanguardblogs.github.io%2Fhow-to-write-blog-and-publish-it.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+<br>
+<br>
+<div class="fb-like" data-href="https://vanguardblogs.github.io/how-to-write-blog-and-publish-it.html" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
+<br>
+<br>
+<div class="fb-save" data-uri="https://www.instagram.com/facebook/" data-size="large"></div>
+<br>
+<br>
+<div class="Comments">
+<div class="fb-comments" data-href="https://vanguardblogs.github.io/how-to-write-blog-and-publish-it.html" data-width="340" data-numposts="50"></div>
+</div>
+<br>
+<br>
+<center>
+<div class="sub">
+<p style="font-size:35px; color:#FFFFFF;">
+&#9993; Become our weekly newsletter subscriber! &#9993;
+</p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCwodD2F4zYguDy_wcNfAfzoNWbhByLE8H8rOBpV3ObdpEKA/viewform?embedded=true" width="340" height="750" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+</div>
+</center>
+<p style="font-size:5px; text-align:center;">
+  VanguardBlogs.github.io
+</p>
+<br>
+<br>
+<br>
+<div class="navbar">
+<i>
+    <a href="home.html">
+ <img src="outline_home_white_24dp.png" height="20">
+  </a>
+</i>
+  <i>
+  <a href="home.html#myInput" class="active">
+  <img src="outline_article_white_24dp.png" height="20">
+  </a>
+</i>
+ <i>
+ <a href="home.html#searchit">
+ <img src="outline_search_white_24dp.png" height="20">
+ </a>
+  <a href="nailto:weblog5895@gmail.com"><img src="outline_contact_mail_white_24dp_small.png"></a>
+</div>
+	</body>
+	</html>
