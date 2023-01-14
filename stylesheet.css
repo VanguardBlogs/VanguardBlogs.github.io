@@ -28,13 +28,13 @@
      }
 
      .navbar a:hover {
-       background: #8FACE3;
+       background: #704214;
        color: black;
        border-radius: 25px;
      }
 
      .navbar a.active {
-       background-color: #8FACE3;
+       background-color: #704214;
        color: white;
      }
      @media screen and (max-width: 425px) {
@@ -59,13 +59,13 @@
        }
 
        .navbar a:hover {
-         background: #8FACE3;
+         background: #704214;
          color: black;
          border-radius: 25px;
        }
 
        .navbar a.active {
-         background-color: #8FACE3;
+         background-color: #704214;
          color: white;
      }
      }
@@ -73,14 +73,14 @@
            position: relative;
            background-color: #FFFFFF;
            font-size: 15px;
-           color: #8FACE3;
+           color: #704214;
            padding: 70px 20px;
            width: 140px;
            height: 150px;
            text-decoration: none;
            overflow: hidden;
            cursor: pointer;
-           border: 1px solid #8FACE3;
+           border: 1px solid #704214;
      	  border-radius: 25px;
      	  margin: 8px 5px;
      	  }
@@ -89,14 +89,14 @@
            position: relative;
            background-color:  #FFFFFF;
            font-size: 15px;
-           color: #8face3;
+           color: #704214;
            padding: 70px 20px;
            width: 140px;
            height: 150px;
            text-decoration: none;
            overflow: hidden;
            cursor: pointer;
-           border: 1px solid #8FACE3;
+           border: 1px solid #704214;
      	  border-radius: 25px;
      	  margin: 8px 5px;
      	  }
@@ -105,14 +105,14 @@
            position: relative;
            background-color: #FFFFFF;
            font-size: 15px;
-           color: #8FACE3;
+           color: #704214;
            padding: 70px 20px;
            width: 140px;
            height: 150px;
            text-decoration: none;
            overflow: hidden;
            cursor: pointer;
-     	  border: 1px solid #8FACE3;
+     	  border: 1px solid #704214;
      	  border-radius: 25px;
      	    margin: 8px 5px;
      	  }
@@ -120,14 +120,14 @@
            position: relative;
            background-color: #FFFFFF;
            font-size: 15px;
-           color: #8FACE3;
+           color: #704214;
            padding: 70px 20px;
            width: 140px;
            height: 150px;
            text-decoration: none;
            overflow: hidden;
            cursor: pointer;
-           border: 1px solid #8FACE3;
+           border: 1px solid #704214;
      	  border-radius: 25px;
      	  margin: 8px 5px;
      	  }
@@ -137,14 +137,14 @@
                 position: relative;
                 background-color: #FFFFFF;
                 font-size: 15px;
-                color: #8FACE3;
+                color: #704214;
                 padding: 70px 20px;
                 width: 75px;
                 height: 120px;
                 text-decoration: none;
                 overflow: hidden;
                 cursor: pointer;
-                border: 1px solid #8FACE3;
+                border: 1px solid #704214;
           	  border-radius: 25px;
           	  margin: 2px 2px;
           	  }
@@ -153,14 +153,14 @@
                 position: relative;
                 background-color:  #FFFFFF;
                 font-size: 15px;
-                color: #8face3;
+                color: #704214;
                 padding: 70px 20px;
                 width: 75px;
                 height: 120px;
                 text-decoration: none;
                 overflow: hidden;
                 cursor: pointer;
-                border: 1px solid #8FACE3;
+                border: 1px solid #704214;
           	  border-radius: 25px;
           	  margin: 2px 2px;
           	  }
@@ -169,14 +169,14 @@
                 position: relative;
                 background-color: #FFFFFF;
                 font-size: 15px;
-                color: #8FACE3;
+                color: #704214;
                 padding: 70px 20px;
                 width: 75px;
                 height: 120px;
                 text-decoration: none;
                 overflow: hidden;
                 cursor: pointer;
-          	  border: 1px solid #8FACE3;
+          	  border: 1px solid #704214;
           	  border-radius: 25px;
           	    margin: 2px 2px;
           	  }
@@ -184,14 +184,14 @@
                 position: relative;
                 background-color: #FFFFFF;
                 font-size: 15px;
-                color: #8FACE3;
+                color: #704214;
                 padding: 70px 20px;
                 width: 75px;
                 height: 120px;
                 text-decoration: none;
                 overflow: hidden;
                 cursor: pointer;
-                border: 1px solid #8FACE3;
+                border: 1px solid #704214;
           	  border-radius: 25px;
           	  margin: 2px 2px;
           	  }
@@ -210,7 +210,7 @@
      }
      .click:hover {
      color: #000000;
-     background-color: #ffffff;
+     background-color: #000000;
      }
      body {
      background-color: #FFFFFF;
@@ -243,7 +243,7 @@
      }
 
      .sidebar a:hover {
-       background-color: #8FACE3;
+       background-color: #704214;
         border-radius: 25px;
         color: #5a5a5a;
      }
@@ -268,14 +268,14 @@
        text-align: center;
        padding: 20px 20px;
        text-decoration: none;
-       background-color: #8FACE3;
+       background-color: #704214;
        border: 1px solid #FFFFFF;
      }
      .categories a:hover {
      color: #000000;
      }
      .openbtn:hover {
-       background-color: #8FACE3;
+       background-color: #704214;
         border-radius: 25px;
      }
 
@@ -315,7 +315,7 @@
      }
 
      li a:hover {
-       background-color: #8FACE3;
+       background-color: #704214;
        color: #FFFFFF;
         border-radius: 25px;
      }
@@ -340,7 +340,7 @@
      }
 
      .active {
-       background-color: #8FACE3;
+       background-color: #704214;
        border-radius: 25px;
      }
 
@@ -365,7 +365,7 @@
      }
 
      .sub {
-     background-color: #8FACE3;
+     background-color: #704214;
      position: bottom;
      }
      #myInput {
@@ -389,7 +389,7 @@
      }
 
      #myBtn:hover {
-       background-color: #8FACE3; /* Add a dark-grey background on hover */
+       background-color: #704214; /* Add a dark-grey background on hover */
      }
      .logo {
      margin: 15px 10px 0 0;
@@ -419,5 +419,5 @@
        font-family: 'Roboto', sans-serif;
        font-size:40px;
        text-align: center;
-       color: #8FACE3;
+       color: #704214;
      }
