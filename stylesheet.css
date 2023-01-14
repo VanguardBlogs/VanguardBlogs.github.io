@@ -54,7 +54,7 @@
          text-align: center;
          padding: 14px 16px;
          text-decoration: none;
-         font-size: 6px;
+         font-size: 15px;
          margin: 0 0 0 0;
        }
 
@@ -132,7 +132,7 @@
      	  margin: 8px 5px;
      	  }
 
-         @media screen and (max-width: 425px) {
+         @media screen and (max-width: 375px) {
            .buttonsss {
                 position: relative;
                 background-color: #FFFFFF;
