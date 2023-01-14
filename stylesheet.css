@@ -413,7 +413,7 @@
        height: auto;
      }
      @media screen and (max-width: 375px) {
-       .mediaFix {font-size: 18px;}
+       .mediaFix {font-size: 25px;}
      }
      .roboto {
        font-family: 'Roboto', sans-serif;
