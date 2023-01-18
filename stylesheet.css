@@ -37,7 +37,7 @@
        background-color: #704214;
        color: white;
      }
-     @media screen and (max-width: 375px) {
+     @media screen and (max-width: 425px) {
        .navbar {
          overflow: hidden;
          background-color: #000000;
@@ -402,6 +402,7 @@
      height: 400px;
      width: auto;
      margin: 0 0 0 0;
+     font-size: 14px;
      }
      .responsive {
        width: 100%;
