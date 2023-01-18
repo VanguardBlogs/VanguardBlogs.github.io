@@ -412,7 +412,7 @@
        width: 75%;
        height: auto;
      }
-     @media screen and (max-width: 375px) {
+     @media screen and (max-width: 100%) {
        .mediaFix {font-size: 25px;}
      }
      .roboto {
