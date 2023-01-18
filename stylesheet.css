@@ -400,7 +400,7 @@
      .bgimg {
      background-image: url('BG.png');
      height: 400px;
-     width: 100%;
+     width: auto;
      margin: 0 0 0 0;
      }
      .responsive {
@@ -412,7 +412,7 @@
        width: 75%;
        height: auto;
      }
-     @media screen and (max-width: 100%) {
+     @media screen and (max-width: 400px) {
        .mediaFix {font-size: 25px;}
      }
      .roboto {
